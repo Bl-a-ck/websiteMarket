@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="content">
+
+        <form>
+
+            <table><h2>First Name:<span class="fn allEl"></span></h2></table>
+            <input type="text" placeholder="Enter Your First Name" name="name" class="allt text-field" required>
+
+            <table><h2>Last Name:<span class="ln allEl"></span></h2></table>
+            <input type="text" placeholder="Enter Your Last Name" name="name" class="allt text-field1" required>
+
+            <table><h2>Phone:<span class="pho allEl"></span></h2></table>
+            <input type="number" placeholder="Enter Your First Name" name="phone" class="allt phone-field" required value="01">
+
+            <table><h2>Email:<span class="ema allEl"></span></h2></table>
+            <input type="email" name="email" id="" class="allt email-field" required placeholder="Enter Your Email" required>
+
+            <table><h2>Password:<span class="pass allEl"></span></h2></table>
+            <input type="password" name="password" id="" class="allt pass-field" required placeholder="Enter Your Password" required>
+
+
+
+            <br><span class="spbtn"><input type="submit" value="Enter my data" class="btn"></span>
+        </form>
+
+        <br><button class="btn1" onclick="randbtn()">Random User</button>
+
+
+    </div>
+    
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
