@@ -63,7 +63,7 @@ form.addEventListener("submit", function (e) {
     console.log("ALL Data Done");
 
     
-    firstnameP.innerHTML = myfName;
+    // firstnameP.innerHTML = myfName;
 
     Swal.fire({
       title: "Good",
