@@ -70,13 +70,13 @@ form.addEventListener("submit", function (e) {
       text: "ALL Data Done!!",
       icon: "success",
     }).then(() => {
-      window.location.href = "./After Registration/indexl.html";
+      window.location.href = "./After Registration/index.html";
     });
   }
 });
 
 function randbtn() {
-  window.location.href = './After Registration/indexl.html';
+  window.location.href = './After Registration/index.html';
 }
 
 
